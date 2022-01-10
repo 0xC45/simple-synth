@@ -1,0 +1,14 @@
+[package]
+name = "simple_synth"
+authors = ["jason@0xC45.com"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "3.0.5", features = ["derive"] }
+cpal = { version = "0.13.4", features = ["jack"] }
+crossbeam = "0.8.1"
+piston = "0.53.1"
+piston2d-opengl_graphics = "0.79.0"
+piston2d-graphics = "0.41.0"
+pistoncore-glfw_window = "0.74.0"
